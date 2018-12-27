@@ -2,7 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
+Author:   	Jessica Daniels
 Author URI:   http://example.com
 Template: 	accelerate-theme
 Version:      2.0.0
@@ -39,6 +39,42 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.blog-post {
+	float: none;
+}
+
+/* Case Studies Style */
+
+.case-study-sidebar {
+	float:left;
+	width:300px;
+}
+
+.case-study-images {
+	float:left;
+	width:600px;
+}
+
+
+/*Case Studies Featured Work on Homepage Style*/
+
+.homepage-featured-work ul {
+	list-style-type: none;
+}
+
+.homepage-featured-work li {
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.site-content h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px;
+}
+
 
 /* Media Queries */
 @media (min-width: 768px) {
