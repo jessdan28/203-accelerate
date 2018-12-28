@@ -56,16 +56,26 @@ Text Domain:  accelerate-theme-child
 	width:600px;
 }
 
+/*Case Studies Archive Page Styles*/
 
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+.case-study {
+	float:left;
+}
 /*Case Studies Featured Work on Homepage Style*/
 
-.homepage-featured-work ul {
+ul {
 	list-style-type: none;
+	float: left;
 }
 
 .homepage-featured-work li {
 	float: left;
-	padding: 10px;
+	padding: 5px;
 	list-style-type: none;
 }
 
