@@ -86,6 +86,14 @@ ul {
 }
 
 
+/* Contact Us form Styles */
+
+input#nf-field-4.ninja-forms-field.nf-element  {
+	background: #45ac9d;
+	color: #fff;
+}
+
+
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
