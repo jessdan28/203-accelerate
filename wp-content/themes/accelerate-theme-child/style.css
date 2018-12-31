@@ -77,6 +77,7 @@ ul {
 	float: left;
 	padding: 5px;
 	list-style-type: none;
+	text-align: center;
 }
 
 .site-content h3 {
@@ -88,12 +89,196 @@ ul {
 
 /* Contact Us form Styles */
 
-input#nf-field-4.ninja-forms-field.nf-element  {
-	background: #45ac9d;
+input[type="button"],
+input[type="submit"] {
+	font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
 	color: #fff;
+	background: #45ac9d;
+	border: none;
+	padding: 1em 3.75em;
+	text-align: center;
+	float: right;
 }
 
+.main-content h2 {
+	font-size: 1.5em;
+}
 
+/*404 Page Styles */
+
+#notfound aside.nfimage img {
+	max-height: 310px;
+	max-width: 250px;
+}
+
+#notfound .nftext h2 {
+	text-align: center;
+	font-size: 24px;
+	color: #45ac9d;
+	font-family: 'Lobster Two', cursive;
+}
+
+#notfound .nftext a {
+	color: #45ac9d;
+}
+
+/* About Page */
+
+
+
+.aboutpage-hero {
+	background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	margin-bottom: 0;
+	max-height: 310px;
+	max-width: 1250px;
+}
+
+#hero-statement p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 55px;
+	height: 200px;
+	width: 550px;
+}
+
+article.about-accelerate {
+	font-family: 'Open Sans';
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services {
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 800;
+	font-family: 'Montserrat';
+}
+
+#services p {
+	font-size: 16px;
+}
+
+#content-strategy, #influencer-mapping, #social-media-strategy, #design-development {
+	height: 300px;
+	text-transform: none;
+}
+
+#content-strategy .content-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#content-strategy .content-image {
+	float: left;
+	width: 275px;
+}
+
+#content-strategy .content-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#influencer-mapping .influencer-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#influencer-mapping .influencer-image {
+	float: right;
+	width: 275px;
+}
+
+#influencer-mapping .influencer-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#social-media-strategy .social-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#social-media-strategy .social-image {
+	float: left;
+	width: 275px;
+}
+
+#social-media-strategy .social-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#design-development .design-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#design-development .design-image {
+	float: right;
+	width: 275px;
+}
+
+#design-development .design-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+article.about-accelerate h5 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 24px;
+}
+
+#about-footer {
+    border-top-color: #e3e1e1;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-footer .contact-message {
+	width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#about-footer .contact-message strong {
+	font-size: 24px;
+	padding-right: 2em;
+	float: left;
+}
+
+#about-footer .contact-message .button {
+	float: right;
+	font-weight: 400;
+	padding-left: 60px;
+	padding-right: 60px;
+}
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
