@@ -19,7 +19,7 @@ get_header(); ?>
             
         <article id="notfound">
                 <aside class="nfimage">
-                    <img src="http://localhost/accelerate/wp-content/uploads/2018/12/nfimage.jpg"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/nfimage.jpg" class="center"/>
                 </aside>
                 <aside class="nftext">
                     <h2>Oopsy Daisy!</h2>

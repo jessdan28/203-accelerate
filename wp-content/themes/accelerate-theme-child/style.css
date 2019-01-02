@@ -41,7 +41,26 @@ Text Domain:  accelerate-theme-child
 }
 
 .blog-post {
-	float: none;
+	float: left;
+}
+
+/*twitter feed on homepage */
+
+.twitter-feed h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
+}
+
+.read-more-link {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.twitter-feed {
+	float: left;
 }
 
 /* Case Studies Style */
@@ -106,20 +125,29 @@ input[type="submit"] {
 
 /*404 Page Styles */
 
-#notfound aside.nfimage img {
-	max-height: 310px;
-	max-width: 250px;
-}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 
 #notfound .nftext h2 {
 	text-align: center;
-	font-size: 24px;
+	font-size: 48px;
 	color: #45ac9d;
 	font-family: 'Lobster Two', cursive;
+	margin-top: 10px;
 }
 
 #notfound .nftext a {
 	color: #45ac9d;
+	font-weight: 700;
+}
+
+#notfound .nftext p {
+	font-weight: 700;
 }
 
 /* About Page */
