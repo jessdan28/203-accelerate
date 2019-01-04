@@ -42,6 +42,7 @@ Text Domain:  accelerate-theme-child
 
 .blog-post {
 	float: left;
+	width: 42.5%;
 }
 
 /*twitter feed on homepage */
@@ -57,10 +58,12 @@ Text Domain:  accelerate-theme-child
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #45ac9d;
 	text-transform: uppercase;
+	padding-top: 2em;
 }
 
 .twitter-feed {
 	float: left;
+	width: 42.5%;
 }
 
 /* Case Studies Style */

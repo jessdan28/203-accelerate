@@ -30,17 +30,6 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
-     register_post_type( 'custom_about', //assigns a unique name
-        array( //defines settings (many more options available)
-            'labels' => array(
-                'name' => __( 'About' ), //human-readable name, plural
-                'singular_name' => __( 'About' ) //human-readable name, singular
-            ),
-            'public' => true,
-            'has_archive' => true, //ensures posts are archived
-            'rewrite' => array( 'slug' => 'about' ), //defines URL slug for archive
-         )
-    );
 }
 add_action( 'init', 'create_custom_post_types' );
 
