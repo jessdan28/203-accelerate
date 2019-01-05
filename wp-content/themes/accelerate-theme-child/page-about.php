@@ -8,10 +8,9 @@
  */
 get_header(); ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+	<div id="primary" class="home-page hero content">
+		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class='home-page hero-content'>
 					<?php the_content(); ?>
 					
 					<?php 
@@ -31,8 +30,9 @@ get_header(); ?>
 					<div id="hero-statement">
 						<p><?php echo $hero_statement; ?></p>
 					</div><!-- #hero-statement -->
-				</div><!-- #aboutpage-hero -->
-					<?php endwhile; // end of the loop. ?>				
+			<?php endwhile; // end of the loop. ?>
+		</div><!-- #content -->
+	</div><!-- #primary -->				
 					
 				<article class="about-accelerate">
 					<div id="services">
@@ -91,7 +91,6 @@ get_header(); ?>
 						<a class="button" href="<?php echo home_url(); ?>/contact">Contact Us</a>
 					</div>
 				</div>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+
 
 <?php get_footer(); ?>
